@@ -68,7 +68,7 @@
             var GetAge = Console.ReadLine();
 
             Console.WriteLine($"Wow {GetName}. {GetAge} years old is pretty old if you ask me.");
-  
+            
         }
         public static void Sum(int num1, int num2)
         {
@@ -96,7 +96,7 @@
 
         public static void divide (int num1, int num2)
         {
-            Double div = num1 / num2;
+             double div = num1 / num2;
 
             Console.WriteLine($"The answer for {num1} divided by {num2} is {div}");
         }
