@@ -8,11 +8,15 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="MethodsExercise/Program.cs">
     <Files>
-      <File FileName="MethodsExercise/Program.cs" Line="9" Column="1" />
+      <File FileName="MethodsExercise/Program.cs" Line="85" Column="73" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__" />
+        <State name="__root__">
+          <Node name="MethodsExercise">
+            <Node name="MethodsExercise" expanded="True" />
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

@@ -10,49 +10,49 @@
 
             Console.WriteLine("Give me one number.");
 
-            var FirstNumber = Convert.ToInt32(Console.ReadLine());
+            var numOne = Convert.ToInt32(Console.ReadLine());//changed num1 to numOne
 
             Console.WriteLine("give me a second number");
 
-            var SecondNumber = Convert.ToInt32(Console.ReadLine());
+            var numTwo = Convert.ToInt32(Console.ReadLine());//changed num2 to numTwo
 
-            Sum(FirstNumber,SecondNumber);
+            Sum(numOne,numTwo);
 
 
 
             Console.WriteLine("Give me one more number");
 
-            var num3 = Convert.ToInt32(Console.ReadLine());
+            var numThree = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("give me a second number");
 
-            var num4 = Convert.ToInt32(Console.ReadLine());
+            var numFour = Convert.ToInt32(Console.ReadLine());
 
-            difference(num3, num4);
+            Difference(numThree, numFour);//capatilized D
 
 
 
             Console.WriteLine("Give me one more number");
 
-            var num5= Convert.ToInt32(Console.ReadLine());
+            var numFive= Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("give me a second number");
 
-            var num6 = Convert.ToInt32(Console.ReadLine());
+            var numSix = Convert.ToInt32(Console.ReadLine());
 
-            divide(num5, num6);
+            Divide(numFive, numSix);//Capitilized D
 
 
 
             Console.WriteLine("Give me one more number");
 
-            var num7 = Convert.ToInt32(Console.ReadLine());
+            var numSeven = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("give me a second number");
 
-            var num8 = Convert.ToInt32(Console.ReadLine());
+            var numEight = Convert.ToInt32(Console.ReadLine());
 
-            multiply(num7, num8);
+            Multiply(numSeven, numEight);//capitilized M 
 
          
 
@@ -61,42 +61,42 @@
         {
             Console.WriteLine("Hello what is your name!");
 
-            var GetName =Console.ReadLine();
+            var getName =Console.ReadLine();//i think these are correct. does the G need to be Capitilized?
 
-            Console.WriteLine($"Hello {GetName}. How old are you?");
+            Console.WriteLine($"Hello {getName}. How old are you?");
 
-            var GetAge = Console.ReadLine();
+            var getAge = Console.ReadLine();//I think these are correct. does the G need to be Capitilized?
 
-            Console.WriteLine($"Wow {GetName}. {GetAge} years old is pretty old if you ask me.");
+            Console.WriteLine($"Wow {getName}. {getAge} years old is pretty old if you ask me.");
             
         }
         public static void Sum(int num1, int num2)
         {
-            int Add = num1 + num2;
+            int add = num1 + num2; 
 
-            Console.WriteLine($"The answer for {num1} plus {num2} is {Add}");
+            Console.WriteLine($"The answer for {num1} plus {num2} is {add}");
         }
 
 
-        public static void difference(int num1, int num2)
+        public static void Difference(int num1, int num2)//capatilized D
         {
-            Double Subtract = num1 - num2;
+            double subtract = num1 - num2;// lowercased d
 
-            Console.WriteLine($"The answer for {num1} minus {num2} is {Subtract}");
+            Console.WriteLine($"The answer for {num1} minus {num2} is {subtract}");
         }
 
 
-        public static void multiply (int num1, int num2)
+        public static void Multiply (int num1, int num2)// Capitilized M
         {
-            Double mult = num1 * num2;
+            double mult = num1 * num2;// lowercased d
 
             Console.WriteLine($"The answer for {num1} times {num2} is {mult}");
         }
 
 
-        public static void divide (int num1, int num2)
+        public static void Divide (int num1, int num2) //capitilized D 
         {
-             double div = num1 / num2;
+             double div = num1 / num2;//lowercased d in double 
 
             Console.WriteLine($"The answer for {num1} divided by {num2} is {div}");
         }
